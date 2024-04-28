@@ -35,10 +35,12 @@
     display: flex;
     background-color: yellow;
     order: -1;
+    width: 40%;
 }
 
 .aside-2 {
     background-color: rgb(243, 104, 243);
+    width: 40%;
 }
 
 .footer {
