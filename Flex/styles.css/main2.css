@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header {
+    display: flex;
+    background-color: rgb(241, 114, 67);
+    justify-content: center;
+    
+}
+
+.titulo {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.article {
+    display: flex;
+    background-color: rgb(4, 187, 211);
+    justify-content: center;
+}
+
+.aside-1 {
+    display: flex;
+    background-color: yellow;
+    order: -1;
+}
+
+.aside-2 {
+    background-color: rgb(243, 104, 243);
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(138, 241, 138);
+    justify-content: center;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: center;
+}
