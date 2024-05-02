@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ul {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid fuchsia;
+    list-style: none;
+}
+
+.li1 {
+    padding: 20px;
+}
+
+.li5 {
+    padding: 20px;
+}
+
+.header {
+    padding: 20px;
+    
+}
+
+
