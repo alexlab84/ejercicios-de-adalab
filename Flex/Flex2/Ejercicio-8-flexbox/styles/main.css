@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    
+    display: flex;
+    background-color: rgb(221, 177, 94);
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.ul {
+    display: flex;
+    height: 20px;
+    list-style: none;
+}
+
+.enlace {
+    text-decoration: none;
+}
+
+.fecha {
+    padding: 20px;
+    border: 1px solid;
+    
+}
+
+.body {
+    padding: 0 400px 0 389px;
+    background-color: aquamarine;
+    
+}
+
+.Elena {
+    padding: 20px;
+    border: 1px solid;
+    
+    
+}
+
+
+
+.texto {
+   border: 1px solid;
+   text-align: center; 
+}
