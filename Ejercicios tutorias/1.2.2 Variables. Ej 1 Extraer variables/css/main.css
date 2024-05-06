@@ -1,0 +1,58 @@
+:root {
+  /*Escribe aquí tu código*/
+  --color-background-header: #eaeaea;
+  --color-text-title: grey;
+  --color-text-link: green;
+
+  --width-paragraph: 50%;
+  --margin-title: 0;
+  --padding-general: 20px;
+
+  --fontsize-text: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: var(--color-background-header);
+  padding: var(--padding-general);
+}
+
+main {
+  padding: var(--padding-general);
+}
+
+p {
+  width: var(--width-paragraph);
+  font-size: var(--fontsize-text);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  color: var(--color-text-title);
+  margin: var(--margin-title);
+}
+
+.subtitle {
+  color: var(--color-text-title);
+  margin: var(--margin-title);
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  color: var(--color-text-link);
+  text-decoration: none;
+}
+
+p a {
+  color: var(--color-text-link);
+}

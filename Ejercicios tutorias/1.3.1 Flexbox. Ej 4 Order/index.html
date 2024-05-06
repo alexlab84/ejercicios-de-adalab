@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 1 Lección 3.1</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <!--
+  # 4. Order
+
+  1. Crea un listado de noticias con imagen, título y párrafo de contenido.
+  2. Mételas en una caja contenedora flex y haz que se distribuyan en dos columnas.
+  3. Elige una noticia, por ejemplo, la última, y ponla como destacada, en primer lugar y ocupando las dos columnas.
+  -->
+  <header class="header">
+    <h1 class="header__title">Ej 4: Order</h1>
+  </header>
+  
+  <!-- main.container>(article.article>img.article__image[alt="Imagen" src="https://placehold.co/600x400/777777/FFF?font=roboto&text=image"]+h2{Título}+p{Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur, itaque alias reprehenderit accusamus})*5 -->
+  
+  <main class="container">
+    <article class="article">
+      <img class="article__image" src="https://placehold.co/600x400/777777/FFF?font=roboto&text=image" alt="Imagen">
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur, itaque alias reprehenderit accusamus</p>
+    </article>
+    <article class="article">
+      <img class="article__image" src="https://placehold.co/600x400/777777/FFF?font=roboto&text=image" alt="Imagen">
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur, itaque alias reprehenderit accusamus</p>
+    </article>
+    <article class="article">
+      <img class="article__image" src="https://placehold.co/600x400/777777/FFF?font=roboto&text=image" alt="Imagen">
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur, itaque alias reprehenderit accusamus</p>
+    </article>
+    <article class="article">
+      <img class="article__image" src="https://placehold.co/600x400/777777/FFF?font=roboto&text=image" alt="Imagen">
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur, itaque alias reprehenderit accusamus</p>
+    </article>
+    <!-- Al último artículo le ponemos una clase para destacarlo -->
+    <article class="article spotlight">
+      <img class="article__image" src="https://placehold.co/600x400/777777/FFF?font=roboto&text=image" alt="Imagen">
+      <h2>Título</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur, itaque alias reprehenderit accusamus</p>
+    </article>
+  </main>
+
+  
+</body>
+</html>

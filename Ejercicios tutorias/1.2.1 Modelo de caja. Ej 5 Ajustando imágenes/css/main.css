@@ -1,0 +1,24 @@
+.box1 {
+  /* box-sizing: content-box; -> box-sizing por defecto */
+
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: solid 5px black;
+  margin-inline: auto;
+}
+
+.box2 {
+  box-sizing: border-box;
+
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: solid 5px black;
+  margin-inline: auto;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}

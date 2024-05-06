@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo 1 Lección 2.1</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <!--
+  # 5. Ajustando imágenes
+
+  Crea un div de 100x100px usando las propiedades width y height, incluye dentro una imagen de 100x100px y prueba a:
+
+    - Añadir un padding de 10px
+    - Añadir un borde de 5px
+    - Cambiar el modelo de caja a border-box y explicar qué ha pasado
+
+  Centrar la caja utilizando el valor auto en los margenes horizontales.
+  -->
+  <header>
+    <h1>Ej 5: Ajustando imágenes</h1>
+  </header>
+  
+  <main>
+    <h2>Primer caso: padding y borde y <code>box-sizing: content-box</code></h2>
+    <div class="box1">
+      <img class="image" src="./images/cato-1.png" alt="Dibujo de un gatico">
+    </div>
+    <p>
+      Con el <code>box-sizing: content-box</code> (que es el valor por defecto, como si no pusieramos nada),
+      con las propiedades <code>width</code> y <code>height</code> estamos indicando el tamaño del contenido
+      de ese elemento. Lo que ocupa el <code>padding</code> o el <code>border</code> no forma parte del tamaño
+      indicado en <code>width</code> o <code>height</code> y el elemento ocupará más de lo indicado.
+    </p>
+
+    <h2>Segundo caso: padding y borde y <code>box-sizing: border-box</code></h2>
+    <div class="box2">
+      <img class="image" src="./images/cato-1.png" alt="Dibujo de un gatico">
+    </div>
+    <p>
+      Cuando se usa el valor <code>box-sizing: border-box</code>, el tamaño que especificamos en <code>width</code>
+      o <code>height</code> es el tamaño total del elemento. Y en esa medida está incluido el contenido, el padding
+      y el borde de ese elemento.
+    </p>
+  </main>
+  
+</body>
+</html>

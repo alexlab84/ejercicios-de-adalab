@@ -1,0 +1,75 @@
+/* Hoja de estilos de reset mínima */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fuente general */
+
+:root {
+  background-color: #333333;
+  color: white;
+  font: 16px 'Roboto', Verdana, sans-serif;
+}
+
+.header {
+  background-color: darkcyan;
+  color: white;
+
+  padding: 20px;
+}
+
+.main {
+  padding: 10px;
+  background-color: #777777;
+}
+
+.footer {
+  padding: 10px;
+  background-color: #ffa500;
+  color: #000000;
+}
+
+/* Estilos del ejercicio */
+
+/*
+  El contenedor flex es el elemento `<body>` en este caso.
+*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  flex: 0 0 100px;
+  /* 
+    Es lo mismo que poner:
+  flex-grow: 0;      -> No puede crecer
+  flex-shrink: 0;    -> No puede menguar
+  flex-basis: 100px  -> Tamaño inicial
+  */
+}
+
+.main {
+  flex: 1 1 auto;
+  /* 
+    Es lo mismo que poner:
+  flex-grow: 0;      -> Crecerá si el contenedor tiene más tamaño
+  flex-shrink: 0;    -> Se reducirá si el contenedor tiene menos tamaño
+  flex-basis: auto;  -> Tamaño inicial automático (flex se encargará de repartirlo)
+  */
+}
+
+.footer {
+  flex: 0 0 100px;
+  /* 
+    Es lo mismo que poner:
+  flex-grow: 0;      -> No puede crecer
+  flex-shrink: 0;    -> No puede menguar
+  flex-basis: 100px  -> Tamaño inicial
+  */
+}
