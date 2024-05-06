@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+.div5{
+    position: relative;
+    padding-bottom: 130px;
+}
+
+.div6 {
+    height: 100px;
+    background-color: yellow;
+    position: fixed;
+    bottom: 1px;
+    
+}
