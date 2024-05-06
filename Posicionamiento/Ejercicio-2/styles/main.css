@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+}
+
+.header {
+    background-color: blueviolet;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+}
+
+.main {
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
