@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: aqua;
+    position: relative;
+}
+
+.div1 {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+    background-color: red;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    
+}
+
+.div2 {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+    background-color: blue;
+    position: absolute;
+    right: 150px;
+    bottom: 320px;
+}
+
+.div3 {
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+    background-color: green;
+    position: absolute;
+    left: 180px;
+    bottom: 240px;
+}
