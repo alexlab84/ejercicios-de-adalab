@@ -1,43 +1,48 @@
 .main {
+    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
     
     
 }
 
-.container {
-    
-    display: flex;
-    flex-flow: column wrap;
+
     
     
-    
-}
+
 
 .div1 {
-    
+    width: 40%;
     border: 1px solid fuchsia;
-    width: 50%;
+    
+   
     
 }
 
 .div2 {
+    width: 40%;
     border: 1px solid fuchsia;
-    width: 50%;
+    
 }
 
 .div3 {
+    width: 40%;
     border: 1px solid fuchsia;
-    width: 50%;
+    
 }
 
 .div4 {
+    width: 40%;
     border: 1px solid fuchsia;
-    width: 50%;
+    
 }
 
 .div5 {
+    width: 80%;
     border: 1px solid fuchsia;
+    order: -1;
     
 }
 

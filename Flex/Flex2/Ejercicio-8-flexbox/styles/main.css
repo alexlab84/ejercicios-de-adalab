@@ -3,48 +3,57 @@
     margin: 0;
     padding: 0;
 }
-
+   /* estilos header */
 .header {
-    
-    display: flex;
     background-color: rgb(221, 177, 94);
-    justify-content: space-around;
-    align-items: center;
+    
     
 }
 
-.ul {
+.centralcolumn {
     display: flex;
-    height: 20px;
+    
+    justify-content: space-between;
+    max-width: 600px;
+    margin-inline: auto;
+    align-items: center;
+    flex: 0 0 80px;
+}
+
+.menu__list {
     list-style: none;
+    display: flex;
+    gap: 32px;
+    
 }
 
-.enlace {
+.menu__link {
     text-decoration: none;
-}
+    /* padding: 1em; */
 
-.fecha {
-    padding: 20px;
-    border: 1px solid;
-    
-}
-
-.body {
-    padding: 0 400px 0 389px;
-    background-color: aquamarine;
-    
-}
-
-.Elena {
-    padding: 20px;
-    border: 1px solid;
-    
-    
 }
 
 
 
-.texto {
-   border: 1px solid;
-   text-align: center; 
+
+
+
+
+
+
+
+.footer {
+    padding: 2em;
+    border-top: dotted 1px;
+    height: 60px;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    height: 108vh;
+}
+
+.main {
+    height: 100%;
 }
